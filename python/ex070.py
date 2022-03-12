@@ -13,7 +13,7 @@ while True:
         nome_barato = nome
     if preço > 1000: #Se o produto custar mais de R$1000, a variavel mil vai receber mais um valor
         mil += 1
-    continuar = input('Quer continuar? [S/N] ').strip().upper() #Pergunta ao usuário se ele quer continuar, serão desconsiderados espaços a direita e a esquerda e a respota será jogada para maiúsculo
+    continuar = input('Quer continuar? [S/N] ').strip().upper()[0] #Pergunta ao usuário se ele quer continuar, serão desconsiderados espaços a direita e a esquerda e a respota será jogada para maiúsculo, se o usuário digitar 'Não' o programa entenderá como 'N', se digitar 'Sim' entenderá como 'S' 
     if continuar == 'N': #Se a resposta for 'N' o programa será encerrado
         break
 print('Fim das compras.')
