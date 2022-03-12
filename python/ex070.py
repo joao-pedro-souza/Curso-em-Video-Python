@@ -1,4 +1,4 @@
-#Programa que vai perguntar ao usuário o nome e o preço de produtos, quantas vezes o usuário quiser, no final o programa vau mostrar o preço final da compra, quantos produtos custam mais de R$1000 e qual é o nome do produto mais barato.
+#Programa que vai perguntar ao usuário o nome e o preço de produtos, quantas vezes o usuário quiser, no final o programa vai mostrar o preço final da compra, quantos produtos custam mais de R$1000 e qual é o nome do produto mais barato.
 total = mil = barato = 0
 nome_barato = '0'
 while True:
