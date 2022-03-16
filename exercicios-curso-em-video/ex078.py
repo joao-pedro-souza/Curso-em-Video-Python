@@ -10,5 +10,11 @@ for c in range(0,5):
     elif maior < valores[c]: #Verifica se o valor digitado é o maior
         maior = valores[c]
 print(valores) #Mostra a lista
-print(f'O menor valor foi {menor}') #Mostra o maior valor
-print(f'O maior valor foi {maior}') #Mostra o menor valor
+print(f'O menor valor foi {menor} na posição ', end='') #Mostra o menor valor
+for pos, v in enumerate(valores):
+    if v == menor:
+        print(f'{pos+1}', end=' ') #Mostra a posição do menor valor
+print(f'\nO maior valor foi {maior} na posição ', end='') #Mostra o maior valor
+for pos, v in enumerate(valores):
+    if v == maior:
+        print(f'{pos+1}', end=' ') #Mostra a posição do maior valor
