@@ -1,4 +1,4 @@
 #Programa que pede um número e mostra seu sucessor e antecessor 
 n = int(input('Digite um número: '))
-print(f'O sucessor de \33[31m{n} \33[mé \33[32m{n+1}\33[m')
-print(f'O antecessor de \33[31m{n} \33[mé \33[33m{n-1}\33[m')
+print(f'O sucessor de {n} é {n+1}')
+print(f'O antecessor de {n} é {n-1}')
