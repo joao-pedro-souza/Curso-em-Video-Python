@@ -1,3 +1,4 @@
+#Programa que pede um número e exibe sua tabuada
 n = int(input('Digite o número '))
 print('===TABUADA===')
 print(f'{n} . 1  =  {n*1}')
