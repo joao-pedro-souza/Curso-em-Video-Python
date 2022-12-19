@@ -1,3 +1,5 @@
+#Programa que toca um áudio em mp3
+
 import pygame
 pygame.mixer.init()
 pygame.init()
