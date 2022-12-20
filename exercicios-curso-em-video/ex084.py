@@ -1,3 +1,4 @@
+#Programa que pede nome e peso de várias pessoas e exibe a quantidade de pessoas cadastradas, maior e menor peso e quem registrou esses números
 lista = list()
 pessoas =list()
 maiorpeso = 0
