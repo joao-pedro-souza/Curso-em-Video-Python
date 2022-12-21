@@ -1,3 +1,4 @@
+#Programa que cria uma matriz 3 por 3 com números digitados pelo usuário
 matriz = [[0, 0, 0],
             [0, 0, 0],
             [0, 0, 0]]
