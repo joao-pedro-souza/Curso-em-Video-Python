@@ -15,3 +15,9 @@ while True:
 print('Nº'.ljust(5), 'Nome'.ljust(20), 'Média')
 for i, a in enumerate(lista):
     print(f'{i}'.ljust(5), f'{a[0]}'.ljust(20), f'{a[2]}')
+
+while True:
+    r = int(input('Mostrar notas de qual aluno? (999 para parar) '))
+    if r == 999:
+        break
+    print(f'Notas de {lista[r][0]} são: {lista[r][1]}')
