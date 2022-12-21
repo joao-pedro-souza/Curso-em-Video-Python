@@ -1,3 +1,4 @@
+#Programa que pede 7 números e cria uma lista, e então os separa em listas de números pares e ímpares
 lista = list()
 pares = list()
 impares = list()
