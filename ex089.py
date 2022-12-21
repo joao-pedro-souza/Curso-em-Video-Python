@@ -1,3 +1,4 @@
+#Programa que cria uma lista com nome e duas notas de vários alunos, no final exibe a média de todos os alunos e permite exibir as notas de cada aluno individualmente
 lista = list()
 c = 0
 while True:
