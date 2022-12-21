@@ -1,3 +1,4 @@
+#Programa que cria uma matriz 3 por 3 e faz a soma dos números pares, a soma dos valores da terceira coluna e verifica o maior número da segunda linha
 matriz = [[0, 0, 0],
                 [0, 0, 0],
                 [0, 0, 0]]
