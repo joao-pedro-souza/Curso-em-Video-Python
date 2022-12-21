@@ -1,3 +1,4 @@
+#Programa que cria palpites para Mega Sena
 from random import randint
 sorteio = list()
 lista = list()
