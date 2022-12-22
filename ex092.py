@@ -1,3 +1,4 @@
+#Programa que lê nome, ano de nascimento e CPTS e cadastra em um dicionário, se a CPTS for diferente de zero o dicionário também receberá ano de contratação e salário, e o cálculo de aposentadoria
 pessoa = dict()
 pessoa['Nome'] = input('Nome: ')
 pessoa['Idade'] = 2022 - int(input('Ano de Nascimento: '))
