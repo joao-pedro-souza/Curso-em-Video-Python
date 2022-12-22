@@ -1,3 +1,4 @@
+#Programa onde 4 jogadores tem resultados aleatórios que são salvos em um dicionário. No final esse dicionário é ordenado e mostrado na tela
 from random import randint
 from time import sleep
 from operator import itemgetter
