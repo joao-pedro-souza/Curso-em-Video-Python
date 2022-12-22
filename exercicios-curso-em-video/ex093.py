@@ -1,3 +1,4 @@
+#Programa que lê nome, quantidade de partidas de um jogador, depois a quantidade de gols em cada partida e o total de gols e guarda em um dicionário
 jogador = dict()
 gols = list()
 total = 0
