@@ -37,4 +37,3 @@ for c in cadastro:
         for g in c['Gols']:
             print(f'No jogo {njogos} fez {g} gols')
             njogos += 1
-        
