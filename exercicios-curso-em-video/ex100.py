@@ -1,3 +1,4 @@
+#Programa que tem uma função sorteia(), que coloca 5 números em uma lista, e uma função somaPar(), que mostra a soma dos números pares sorteados na função sorteia()
 from random import randint
 numeros = list()
 
