@@ -1,3 +1,4 @@
+#Programa que lê nome, sexo e idade de várias pessoas, guardando cada pessoa em um dicionário e todos os dicionários. No final o programa mostra quantas pessoas foram cadastradas, a média de idade, mulheres cadastradas e pessoas acima da idade média
 pessoas = dict()
 cadastro = list()
 soma = 0
