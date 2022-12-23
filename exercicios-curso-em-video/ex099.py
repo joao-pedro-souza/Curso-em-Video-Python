@@ -1,3 +1,4 @@
+#Programa com a função maior(), que recebe vários parâmetros inteiros e analisa qual o maior
 def maior(*num):
     maior = 0
     print('Analisando os valores passados:')
