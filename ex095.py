@@ -1,3 +1,4 @@
+#Versão aprimorada do exercício 93, que permite cadastrar vários jogadores e tem um sistema de de visualização com detalhes do aproveitamento de cada jogador.
 jogador = dict()
 gols = list()
 cadastro = list()
