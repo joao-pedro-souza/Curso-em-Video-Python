@@ -31,10 +31,16 @@ for c in cadastro:
     print(f'{c["Nome"]}'.ljust(15), end='')
     print(f'{c["Gols"]}'.ljust(15), end='')
     print(f'{c["Total"]}')
-pesquisa = int(input('Mostrar dados de qual jogador? (Insira o código) '))
-for c in cadastro:
-    if c['Cód'] == pesquisa:
-        print(f'Levantamento do jogador {c["Nome"]}')
-        for g in c['Gols']:
-            print(f'No jogo {njogos} fez {g} gols')
-            njogos += 1
+while True:
+    pesquisa = int(input('Mostrar dados de qual jogador? (999 para parar) '))
+    if pesquisa == 999:
+        break
+    if pesquisa >= len(cadastro):
+        print(f'Erro, não existe jogador com o código {pesquisa}')
+    for c in cadastro:
+        if c['Cód'] == pesquisa:
+            print(f'Levantamento do jogador {c["Nome"]}')
+            for g in c['Gols']:
+                print(f'No jogo {njogos} fez {g} gols')
+                njogos += 1
+            njogos = 1
