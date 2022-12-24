@@ -1,3 +1,4 @@
+#Programa que tem a função leiaInt(), que funciona de forma semelhante à função input(), mas fazendo a validação para aceitar apenas números inteiros
 def leiaInt(msg):
     ok = False
     valor = 0
