@@ -1,3 +1,4 @@
+#Programa que tem uma função notas() que pode receber notas de vários alunos, e retorna um dicionário com as seguintes informações: quantidade de notas, maior nota, menor nota, média da turma, situação(opcional)
 def notas(*tupla, sit=False):
     dic = dict()
     total = 0
