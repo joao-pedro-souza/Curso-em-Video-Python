@@ -1,12 +1,13 @@
-def voto(i):
+#Programa com uma função voto() que recebe o parâmetro ano de nascimento e retorna um valor literal que indica se uma pessoa tem não vota, tem voto opcional ou obrigatório
+def voto(idade):
     from datetime import date
-    i =  date.today().year - i
-    if i < 16:
-        return f'Com {i} anos: Não Vota'
-    elif i > 17 and i < 65:
-        return f'Com {i} anos: Voto Obrigatório'
+    idade =  date.today().year - idade
+    if idade < 16:
+        return f'Com {idade} anos: Não Vota'
+    elif idade > 17 and idade < 65:
+        return f'Com {idade} anos: Voto Obrigatório'
     else:
-        return f'Com {i} anos: Voto Opcional'
+        return f'Com {idade} anos: Voto Opcional'
 
-idade = int(input('Em que ano você nasceu? '))
-print(voto(idade))
+nascimento = int(input('Em que ano você nasceu? '))
+print(voto(nascimento))
