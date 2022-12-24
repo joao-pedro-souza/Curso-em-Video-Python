@@ -36,3 +36,4 @@ def notas(*tupla, sit=False):
 
 resp = notas(5, 10, 8, 7.5, sit=True)
 print(resp)
+help(notas)
