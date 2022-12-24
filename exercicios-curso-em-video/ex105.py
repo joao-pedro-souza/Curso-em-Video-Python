@@ -1,5 +1,11 @@
 #Programa que tem uma função notas() que pode receber notas de vários alunos, e retorna um dicionário com as seguintes informações: quantidade de notas, maior nota, menor nota, média da turma, situação(opcional)
 def notas(*tupla, sit=False):
+    """
+    -> Função para analisar notas e situações de vários alunos.
+    :param n: uma ou mais notas dos alunos (aceita várias)
+    :param sit: valor opcional, indicando se deve ou não adicionar a situação
+    :return dicionário com várias informações sobre a situação da turma.
+    """
     dic = dict()
     total = 0
     maior = 0
