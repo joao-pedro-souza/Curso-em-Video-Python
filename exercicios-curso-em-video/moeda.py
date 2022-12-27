@@ -15,4 +15,4 @@ def diminuir(n, t):
 
 
 def moeda(n):
-    return f'R${n}'
+    return f'R${n}'.replace('.', ',')
