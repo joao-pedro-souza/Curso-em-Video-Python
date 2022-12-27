@@ -12,3 +12,7 @@ def aumentar(n):
 
 def diminuir(n):
     return n - n * 13 / 100
+
+
+def moeda(n):
+    return f'R${n}'
