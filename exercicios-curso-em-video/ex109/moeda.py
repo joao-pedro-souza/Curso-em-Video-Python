@@ -1,18 +1,26 @@
-def metade(n):
-    return n / 2
+def metade(n, f=False):
+    res = n / 2
+    if f:
+        res = moeda(res)
+    return res
 
+def dobro(n, f=False):
+    res = n * 2
+    if f:
+        res = moeda(res)
+    return res
 
-def dobro(n):
-    return n * 2
+def aumentar(n, t, f=False):
+    res = n + n * t / 100
+    if f:
+        res = moeda(res)
+    return res
 
-
-def aumentar(n, t):
-    return n + n * t / 100
-
-
-def diminuir(n, t):
-    return n - n * t / 100
-
+def diminuir(n, t, f=False):
+    res = n - n * t / 100
+    if f:
+        res = moeda(res)
+    return res
 
 def moeda(n):
-    return f'R${n}'.replace('.', ',')
+        return f'R${n}'.replace('.', ',')
