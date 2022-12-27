@@ -32,7 +32,7 @@ for c in cadastro:
     print(f'{c["Gols"]}'.ljust(15), end='')
     print(f'{c["Total"]}')
 while True:
-    pesquisa = int(input('Mostrar dados de qual jogador? (999 para parar) '))
+    pesquisa = int(input('Mostrar dado de qual jogador? (999 para parar) '))
     if pesquisa == 999:
         break
     if pesquisa >= len(cadastro):
