@@ -24,3 +24,14 @@ def diminuir(n, t, f=False):
 
 def moeda(n):
         return f'R${n}'.replace('.', ',')
+
+
+def resumo(n, a, r):
+    print('Resumo do valor:')
+    print(f'Preço analisado: {moeda(n)}')
+    print(f'Dobro do preço: {dobro(n, True)}')
+    print(f'Metade do preço: {metade(n, True)}')
+    print(f'{a}% de aumento: {aumentar(n, a, True)}')
+    print(f'{r}% de redução: {diminuir(n, r, True)}')
+
+
