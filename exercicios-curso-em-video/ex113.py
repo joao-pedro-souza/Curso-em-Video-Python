@@ -1,24 +1,28 @@
 def leiaInt(msg):
     while True:
-        num = str(input('Digite um número inteiro: ')).strip()
         try:
-            return int(num)
-            break
-        except:
+            num = int(input('Digite um número inteiro: '))
+        except (KeyboardInterrupt):
+            print('\033[0;31mUsuário preferiu não digitar esse número.\033[m')
+            return 0
+        except (ValueError, TypeError):
             print('\033[0;31mERRO! Você digitou um número inválido.\033[m')
-
+        else:
+            return num
 
 def leiaFloat(msg):
     while True:
-        num = str(input('Digite um número decimal: ')).strip().replace(',', '.')
-        try:
-            return float(num)
-            break
-        except:
-            print('\033[0;31mERRO! Você digitou um número inválido.\033[m')
 
+        try:
+            num = float(input('Digite um número real: '))
+        except (KeyboardInterrupt):
+            print('\033[0;31mO Usuário preferiu não digitar esse número\033[m')
+            return 0
+        except (ValueError, TypeError):
+            print('\033[0;31mERRO! Você digitou um número inválido.\033[m')
+        else:
+            return num
 
 i = leiaInt('Digite um número: ')
-print(f'Você digitou o número {i}')
-f = leiaFloat('Digite um número decimal: ')
-print(f'Você digitou o número {f}')
+f = leiaFloat('Digite um número real: ')
+print(f'Você digitou o número inteiro {i} e o número real {f}')
