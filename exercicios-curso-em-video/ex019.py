@@ -1,3 +1,4 @@
+#Programa que lê 4 nomes de alunos e bota em uma lista, depois sorteia um
 from random import choice
 aluno1 = input('Primeiro Aluno: ')
 aluno2 = input('Segundo Aluno: ')
