@@ -1,3 +1,4 @@
+#Programa que lê nome de 4 alunos e os bota numa lista, depois ordena a lista de forma aleatória
 from random import shuffle
 n1 = input('Primeiro Aluno: ')
 n2 = input('Segundo Aluno: ')
