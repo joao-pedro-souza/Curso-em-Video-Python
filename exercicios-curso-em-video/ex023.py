@@ -1,3 +1,4 @@
+#Programa que lê um número e mostra a casa das unidades, dezenas, centenas e milhares
 num = int(input('Digite um número: '))
 u = num // 1 % 10
 d = num // 10 % 10
