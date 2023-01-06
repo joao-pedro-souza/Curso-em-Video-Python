@@ -1,3 +1,4 @@
+#Programa que tenta acessar o site Pudim e mostra se conseguiu ou não
 import urllib
 import urllib.request
 
